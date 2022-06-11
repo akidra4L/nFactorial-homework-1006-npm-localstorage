@@ -1,0 +1,50 @@
+.main-aside {
+    width: 20%;
+    background-color: grey;
+    height: 92vh;
+    border: 3px solid lightblue;
+}
+
+.main-aside #btn-change {
+    margin-top: 100px;
+}
+
+.main-section {
+    height: 90vh;
+}
+
+.main-section label {
+    color: white;
+}
+
+.main-title {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    border: 3px solid lightblue;
+    color: white;
+}
+
+.main-form {
+    height: 40vh;
+    width: 100%;
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-output {
+    height: 40vh;
+    width: 60vw;
+    border: 3px solid lightblue;
+    margin-top: 10px;
+    color: white;
+}
+
+.light {
+    background-color: rgb(195, 182, 165);
+}
+
+.dark {
+    background-color: rgb(38, 34, 34);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="w-100">
+    <header class="header w-100">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light w-100 d-flex justify-content-center align-items-center">
+        <a class="navbar-brand" href="http://github.com/akidra4L">
+          Homework: npm, local-storage
+        </a>
+      </nav>
+    </header>
+
+    <main class="light w-100 d-flex flex-row", id="main-container">
+      <aside class="main-aside d-flex flex-column align-items-center" id="main-aside">
+        <a href="">
+          <button>Home</button>
+        </a>
+        <a href="index.html">
+          <button>Mad Libs</button>
+        </a>
+        <a href="part2.html">
+          <button>Tom Thumb</button>
+        </a>
+        <button id="btn-change" onclick="setTheme()">Change Theme</button>
+        <button onclick="addCookies()">Cookies</button>
+      </aside>
+
+      <section class="main-section d-flex w-100 flex-column align-items-center">
+        <h1 class="main-title">Mad Libs</h1>
+        <div class="main-form d-flex flex-column align-items-center">
+          <label for="person-name">
+            Person name:
+            <input type="text" id="person-name" />
+          </label>
+          <label for="adjective">
+            Adjective:
+            <input type="text" id="adjective" />
+          </label>
+          <label for="verb">
+            Verb:
+            <input type="text" id="verb" />
+          </label>
+          <label for="adverb">
+            Adverb:
+            <input type="text" id="adverb" />
+          </label>
+          <button class="btn btn-primary" id="story-btn">Tell Story</button>
+        </div>
+        <div class="main-output d-flex align-items-center justify-content-center">
+          <p id="output">Please fill in the blanks at the top</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
